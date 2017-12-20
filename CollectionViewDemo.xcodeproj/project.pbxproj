@@ -13,6 +13,13 @@
 		63478AE11F41838600CF5AD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63478ADF1F41838600CF5AD4 /* Main.storyboard */; };
 		63478AE31F41838600CF5AD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63478AE21F41838600CF5AD4 /* Assets.xcassets */; };
 		63478AE61F41838600CF5AD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63478AE41F41838600CF5AD4 /* LaunchScreen.storyboard */; };
+		63478AF01F4183B900CF5AD4 /* GoodsListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63478AEE1F4183B900CF5AD4 /* GoodsListCell.m */; };
+		63478AF11F4183B900CF5AD4 /* GoodsListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63478AEF1F4183B900CF5AD4 /* GoodsListCell.xib */; };
+		63ABC6F21F4E9EB90003A016 /* ImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ABC6F01F4E9EB90003A016 /* ImageCollectionViewCell.m */; };
+		63ABC6F31F4E9EB90003A016 /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63ABC6F11F4E9EB90003A016 /* ImageCollectionViewCell.xib */; };
+		63ABC6FD1F4EA2300003A016 /* timg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 63ABC6FA1F4EA2300003A016 /* timg.jpeg */; };
+		63ABC6FE1F4EA2300003A016 /* timg-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 63ABC6FB1F4EA2300003A016 /* timg-2.jpeg */; };
+		63ABC6FF1F4EA2300003A016 /* timg-3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 63ABC6FC1F4EA2300003A016 /* timg-3.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,15 @@
 		63478AE21F41838600CF5AD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63478AE51F41838600CF5AD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63478AE71F41838600CF5AD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63478AED1F4183B900CF5AD4 /* GoodsListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsListCell.h; sourceTree = "<group>"; };
+		63478AEE1F4183B900CF5AD4 /* GoodsListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsListCell.m; sourceTree = "<group>"; };
+		63478AEF1F4183B900CF5AD4 /* GoodsListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoodsListCell.xib; sourceTree = "<group>"; };
+		63ABC6EF1F4E9EB90003A016 /* ImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCollectionViewCell.h; sourceTree = "<group>"; };
+		63ABC6F01F4E9EB90003A016 /* ImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCollectionViewCell.m; sourceTree = "<group>"; };
+		63ABC6F11F4E9EB90003A016 /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		63ABC6FA1F4EA2300003A016 /* timg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpeg; sourceTree = "<group>"; };
+		63ABC6FB1F4EA2300003A016 /* timg-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-2.jpeg"; sourceTree = "<group>"; };
+		63ABC6FC1F4EA2300003A016 /* timg-3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-3.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +74,19 @@
 		63478AD51F41838600CF5AD4 /* CollectionViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				63ABC6FA1F4EA2300003A016 /* timg.jpeg */,
+				63ABC6FB1F4EA2300003A016 /* timg-2.jpeg */,
+				63ABC6FC1F4EA2300003A016 /* timg-3.jpeg */,
 				63478AD91F41838600CF5AD4 /* AppDelegate.h */,
 				63478ADA1F41838600CF5AD4 /* AppDelegate.m */,
 				63478ADC1F41838600CF5AD4 /* ViewController.h */,
 				63478ADD1F41838600CF5AD4 /* ViewController.m */,
+				63478AED1F4183B900CF5AD4 /* GoodsListCell.h */,
+				63478AEE1F4183B900CF5AD4 /* GoodsListCell.m */,
+				63478AEF1F4183B900CF5AD4 /* GoodsListCell.xib */,
+				63ABC6EF1F4E9EB90003A016 /* ImageCollectionViewCell.h */,
+				63ABC6F01F4E9EB90003A016 /* ImageCollectionViewCell.m */,
+				63ABC6F11F4E9EB90003A016 /* ImageCollectionViewCell.xib */,
 				63478ADF1F41838600CF5AD4 /* Main.storyboard */,
 				63478AE21F41838600CF5AD4 /* Assets.xcassets */,
 				63478AE41F41838600CF5AD4 /* LaunchScreen.storyboard */,
@@ -110,6 +135,7 @@
 				TargetAttributes = {
 					63478AD21F41838600CF5AD4 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YM2MZ34492;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,9 +163,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63ABC6FF1F4EA2300003A016 /* timg-3.jpeg in Resources */,
 				63478AE61F41838600CF5AD4 /* LaunchScreen.storyboard in Resources */,
 				63478AE31F41838600CF5AD4 /* Assets.xcassets in Resources */,
+				63ABC6FE1F4EA2300003A016 /* timg-2.jpeg in Resources */,
+				63ABC6FD1F4EA2300003A016 /* timg.jpeg in Resources */,
+				63478AF11F4183B900CF5AD4 /* GoodsListCell.xib in Resources */,
 				63478AE11F41838600CF5AD4 /* Main.storyboard in Resources */,
+				63ABC6F31F4E9EB90003A016 /* ImageCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +183,8 @@
 			files = (
 				63478ADE1F41838600CF5AD4 /* ViewController.m in Sources */,
 				63478ADB1F41838600CF5AD4 /* AppDelegate.m in Sources */,
+				63ABC6F21F4E9EB90003A016 /* ImageCollectionViewCell.m in Sources */,
+				63478AF01F4183B900CF5AD4 /* GoodsListCell.m in Sources */,
 				63478AD81F41838600CF5AD4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +305,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YM2MZ34492;
 				INFOPLIST_FILE = CollectionViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = duoweidu.CollectionViewDemo;
@@ -283,6 +317,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YM2MZ34492;
 				INFOPLIST_FILE = CollectionViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = duoweidu.CollectionViewDemo;
@@ -309,6 +344,7 @@
 				63478AEC1F41838600CF5AD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
